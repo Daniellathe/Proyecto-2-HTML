@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    background: violet;
+}
+.imagen{
+    width: 10rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 70px;
+}

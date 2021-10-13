@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automàtico</title>
+    <link rel="stylesheet" href="estiloss.css">
+</head>
+<body>
+    <div class="colum"></div>
+        <img src="HTML/MOle.jpg" alt="imagen">
+        <form action="">
+            <h1>Banco Topito</h1>
+            <label for="">Usuario</label>
+            <input type="text" name="u" id="">
+            <label for="">Password</label>
+            <input type="password" name="c" id="">
+            <input type="button" value="Ingresar"  onclick="login(this.form)">
+        </form>
+        <script> function login(form){
+            if (form.u.value=="Mali") {
+                if(form.c.value=="helloworld") {
+                    location=("bienvenido.html");
+                } else {
+                    alert("error de password");
+                }
+            }else{
+                alert("error de usuario");
+            }
+            if (form.u.value=="Gera") {
+                if(form.c.value=="133t") {
+                    location=("bienvenido.html");
+                } else {
+                    alert("error de password");
+                }
+            }else{
+                alert("error de usuario");
+            }
+            if (form.u.value=="Maui") {
+                if(form.c.value=="123") {
+                    location=("bienvenido.html");
+                } else {
+                    alert("error de password");
+                }
+            }else{
+                alert("error de usuario");
+            }
+            }
+        </script>
+</body>
+</html>
+
+
+  
